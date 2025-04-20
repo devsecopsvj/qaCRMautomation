@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="5" failed="3" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-04-19T12:01:42 GMT-05:00" name="naveenTrainingSuite" finished-at="2025-04-19T12:02:51 GMT-05:00" duration-ms="69128">
+    <groups>
+      <group name="Regression">
+        <method signature="LoginApplication.loginTest()[pri:1, instance:com.qaCRM.testcases.LoginApplication@3542162a]" name="loginTest" class="com.qaCRM.testcases.LoginApplication"/>
+        <method signature="LoginApplication.loginPageTitleTest()[pri:2, instance:com.qaCRM.testcases.LoginApplication@3542162a]" name="loginPageTitleTest" class="com.qaCRM.testcases.LoginApplication"/>
+      </group> <!-- Regression -->
+    </groups>
+    <test started-at="2025-04-19T12:01:42 GMT-05:00" name="Test" finished-at="2025-04-19T12:02:51 GMT-05:00" duration-ms="69128">
+      <class name="com.qaCRM.testcases.HomePageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qaCRM.testcases.HomePageTest@c1bd0be]" started-at="2025-04-19T12:01:52 GMT-05:00" name="setUp" finished-at="2025-04-19T12:01:57 GMT-05:00" duration-ms="4941" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyHomepageTitleTest()[pri:1, instance:com.qaCRM.testcases.HomePageTest@c1bd0be]" started-at="2025-04-19T12:01:57 GMT-05:00" name="verifyHomepageTitleTest" finished-at="2025-04-19T12:01:57 GMT-05:00" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomepageTitleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qaCRM.testcases.HomePageTest@c1bd0be]" started-at="2025-04-19T12:01:57 GMT-05:00" name="tearDown" finished-at="2025-04-19T12:01:59 GMT-05:00" duration-ms="1345" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qaCRM.testcases.HomePageTest@c1bd0be]" started-at="2025-04-19T12:01:59 GMT-05:00" name="setUp" finished-at="2025-04-19T12:02:05 GMT-05:00" duration-ms="6443" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyUserName()[pri:1, instance:com.qaCRM.testcases.HomePageTest@c1bd0be]" started-at="2025-04-19T12:02:05 GMT-05:00" name="verifyUserName" finished-at="2025-04-19T12:02:05 GMT-05:00" duration-ms="24" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserName -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qaCRM.testcases.HomePageTest@c1bd0be]" started-at="2025-04-19T12:02:05 GMT-05:00" name="tearDown" finished-at="2025-04-19T12:02:06 GMT-05:00" duration-ms="1336" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qaCRM.testcases.HomePageTest@c1bd0be]" started-at="2025-04-19T12:02:06 GMT-05:00" name="setUp" finished-at="2025-04-19T12:02:12 GMT-05:00" duration-ms="5310" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="clickOnContactsPage()[pri:3, instance:com.qaCRM.testcases.HomePageTest@c1bd0be]" started-at="2025-04-19T12:02:12 GMT-05:00" name="clickOnContactsPage" finished-at="2025-04-19T12:02:12 GMT-05:00" duration-ms="150" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnContactsPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qaCRM.testcases.HomePageTest@c1bd0be]" started-at="2025-04-19T12:02:12 GMT-05:00" name="tearDown" finished-at="2025-04-19T12:02:15 GMT-05:00" duration-ms="2904" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qaCRM.testcases.HomePageTest -->
+      <class name="com.qaCRM.testcases.LoginApplication">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qaCRM.testcases.LoginApplication@3542162a]" started-at="2025-04-19T12:01:42 GMT-05:00" name="setUp" finished-at="2025-04-19T12:01:46 GMT-05:00" duration-ms="4419" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginTest()[pri:1, instance:com.qaCRM.testcases.LoginApplication@3542162a]" started-at="2025-04-19T12:01:46 GMT-05:00" name="loginTest" finished-at="2025-04-19T12:01:46 GMT-05:00" duration-ms="298" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qaCRM.testcases.LoginApplication@3542162a]" started-at="2025-04-19T12:01:46 GMT-05:00" name="tearDown" finished-at="2025-04-19T12:01:48 GMT-05:00" duration-ms="1444" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qaCRM.testcases.LoginApplication@3542162a]" started-at="2025-04-19T12:01:48 GMT-05:00" name="setUp" finished-at="2025-04-19T12:01:51 GMT-05:00" duration-ms="3088" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginPageTitleTest()[pri:2, instance:com.qaCRM.testcases.LoginApplication@3542162a]" started-at="2025-04-19T12:01:51 GMT-05:00" name="loginPageTitleTest" finished-at="2025-04-19T12:01:51 GMT-05:00" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageTitleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qaCRM.testcases.LoginApplication@3542162a]" started-at="2025-04-19T12:01:51 GMT-05:00" name="tearDown" finished-at="2025-04-19T12:01:52 GMT-05:00" duration-ms="1296" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.qaCRM.testcases.LoginApplication@3542162a]" started-at="2025-04-19T12:02:51 GMT-05:00" name="teardown" finished-at="2025-04-19T12:02:51 GMT-05:00" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.qaCRM.testcases.LoginApplication -->
+      <class name="com.qaCRM.testcases.ContactsPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qaCRM.testcases.ContactsPageTest@476b0ae6]" started-at="2025-04-19T12:02:15 GMT-05:00" name="setUp" finished-at="2025-04-19T12:02:23 GMT-05:00" duration-ms="7540" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="createContact(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.qaCRM.testcases.ContactsPageTest@476b0ae6]" started-at="2025-04-19T12:02:23 GMT-05:00" name="createContact" data-provider="getFreeCRMData" finished-at="2025-04-19T12:02:31 GMT-05:00" duration-ms="7992" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Active]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Naveen]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Kumar]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.apache.logging.log4j.Logger.info(String)" because "com.qaCRM.testcases.ContactsPageTest.logger" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.apache.logging.log4j.Logger.info(String)" because "com.qaCRM.testcases.ContactsPageTest.logger" is null
+at com.qaCRM.testcases.ContactsPageTest.createContact(ContactsPageTest.java:77)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createContact -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qaCRM.testcases.ContactsPageTest@476b0ae6]" started-at="2025-04-19T12:02:31 GMT-05:00" name="tearDown" finished-at="2025-04-19T12:02:32 GMT-05:00" duration-ms="1464" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qaCRM.testcases.ContactsPageTest@476b0ae6]" started-at="2025-04-19T12:02:32 GMT-05:00" name="setUp" finished-at="2025-04-19T12:02:39 GMT-05:00" duration-ms="7161" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyContactLabel()[pri:2, instance:com.qaCRM.testcases.ContactsPageTest@476b0ae6]" started-at="2025-04-19T12:02:39 GMT-05:00" name="verifyContactLabel" finished-at="2025-04-19T12:02:39 GMT-05:00" duration-ms="48" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.apache.logging.log4j.Logger.info(String)" because "com.qaCRM.testcases.ContactsPageTest.logger" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.apache.logging.log4j.Logger.info(String)" because "com.qaCRM.testcases.ContactsPageTest.logger" is null
+at com.qaCRM.testcases.ContactsPageTest.verifyContactLabel(ContactsPageTest.java:63)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyContactLabel -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qaCRM.testcases.ContactsPageTest@476b0ae6]" started-at="2025-04-19T12:02:39 GMT-05:00" name="tearDown" finished-at="2025-04-19T12:02:41 GMT-05:00" duration-ms="1406" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qaCRM.testcases.ContactsPageTest@476b0ae6]" started-at="2025-04-19T12:02:41 GMT-05:00" name="setUp" finished-at="2025-04-19T12:02:47 GMT-05:00" duration-ms="6225" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="logOut()[pri:3, instance:com.qaCRM.testcases.ContactsPageTest@476b0ae6]" started-at="2025-04-19T12:02:47 GMT-05:00" name="logOut" finished-at="2025-04-19T12:02:49 GMT-05:00" duration-ms="2162" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.apache.logging.log4j.Logger.info(String)" because "com.qaCRM.testcases.ContactsPageTest.logger" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.apache.logging.log4j.Logger.info(String)" because "com.qaCRM.testcases.ContactsPageTest.logger" is null
+at com.qaCRM.testcases.ContactsPageTest.logOut(ContactsPageTest.java:83)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOut -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qaCRM.testcases.ContactsPageTest@476b0ae6]" started-at="2025-04-19T12:02:49 GMT-05:00" name="tearDown" finished-at="2025-04-19T12:02:51 GMT-05:00" duration-ms="1453" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qaCRM.testcases.ContactsPageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- naveenTrainingSuite -->
+</testng-results>

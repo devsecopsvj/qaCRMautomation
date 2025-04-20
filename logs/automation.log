@@ -1,0 +1,120 @@
+2025-04-18 12:49:51 INFO  ContactsPageTest:57 -
+			Contact page label is verified
+2025-04-18 12:51:12 INFO  LoginApplication:48 -
+			login successful
+2025-04-18 12:51:16 INFO  LoginApplication:41 -
+			page got verified
+2025-04-18 12:51:50 INFO  ContactsPageTest:71 -
+			New Contact records are created
+2025-04-18 12:51:56 INFO  ContactsPageTest:57 -
+			Contact page label is verified
+2025-04-18 12:52:03 INFO  ContactsPageTest:77 -
+			User logged out successfully
+2025-04-18 23:13:28 INFO  TestBase:73 -
+			browser got initialized
+2025-04-18 23:13:31 INFO  TestBase:86 -
+			URL is launched
+2025-04-18 23:13:32 INFO  LoginApplication:48 -
+			login successful
+2025-04-18 23:13:34 INFO  TestBase:73 -
+			browser got initialized
+2025-04-18 23:13:36 INFO  TestBase:86 -
+			URL is launched
+2025-04-18 23:13:36 INFO  LoginApplication:41 -
+			page got verified
+2025-04-18 23:13:38 INFO  TestBase:73 -
+			browser got initialized
+2025-04-18 23:13:53 INFO  TestBase:86 -
+			URL is launched
+2025-04-18 23:13:58 INFO  TestBase:73 -
+			browser got initialized
+2025-04-18 23:14:00 INFO  TestBase:86 -
+			URL is launched
+2025-04-18 23:14:04 INFO  TestBase:73 -
+			browser got initialized
+2025-04-18 23:14:07 INFO  TestBase:86 -
+			URL is launched
+2025-04-18 23:14:10 INFO  TestBase:107 -
+			Browser got closed
+2025-04-18 23:16:27 INFO  TestBase:73 -
+			browser got initialized
+2025-04-18 23:16:29 INFO  TestBase:86 -
+			URL is launched
+2025-04-18 23:16:30 INFO  LoginApplication:48 -
+			login successful
+2025-04-18 23:16:32 INFO  TestBase:73 -
+			browser got initialized
+2025-04-18 23:16:34 INFO  TestBase:86 -
+			URL is launched
+2025-04-18 23:16:34 INFO  LoginApplication:41 -
+			page got verified
+2025-04-18 23:16:37 INFO  TestBase:73 -
+			browser got initialized
+2025-04-18 23:16:40 INFO  TestBase:86 -
+			URL is launched
+2025-04-18 23:16:45 INFO  TestBase:73 -
+			browser got initialized
+2025-04-18 23:16:47 INFO  TestBase:86 -
+			URL is launched
+2025-04-18 23:16:53 INFO  TestBase:73 -
+			browser got initialized
+2025-04-18 23:16:56 INFO  TestBase:86 -
+			URL is launched
+2025-04-18 23:17:01 INFO  TestBase:107 -
+			Browser got closed
+2025-04-18 23:21:21 INFO  TestBase:73 -
+			browser got initialized
+2025-04-18 23:21:23 INFO  TestBase:86 -
+			URL is launched
+2025-04-18 23:21:35 INFO  TestBase:73 -
+			browser got initialized
+2025-04-18 23:21:38 INFO  TestBase:86 -
+			URL is launched
+2025-04-18 23:21:41 INFO  TestBase:73 -
+			browser got initialized
+2025-04-18 23:21:44 INFO  TestBase:86 -
+			URL is launched
+2025-04-18 23:21:48 INFO  TestBase:107 -
+			Browser got closed
+2025-04-18 23:23:07 INFO  TestBase:73 -
+			browser got initialized
+2025-04-18 23:23:09 INFO  TestBase:86 -
+			URL is launched
+2025-04-18 23:23:10 INFO  LoginApplication:48 -
+			login successful
+2025-04-18 23:23:12 INFO  TestBase:73 -
+			browser got initialized
+2025-04-18 23:23:15 INFO  TestBase:86 -
+			URL is launched
+2025-04-18 23:23:15 INFO  LoginApplication:41 -
+			page got verified
+2025-04-18 23:23:16 INFO  TestBase:107 -
+			Browser got closed
+2025-04-18 23:24:37 INFO  TestBase:73 -
+			browser got initialized
+2025-04-18 23:24:40 INFO  TestBase:86 -
+			URL is launched
+2025-04-18 23:24:44 INFO  TestBase:73 -
+			browser got initialized
+2025-04-18 23:24:47 INFO  TestBase:86 -
+			URL is launched
+2025-04-18 23:24:51 INFO  TestBase:73 -
+			browser got initialized
+2025-04-18 23:24:53 INFO  TestBase:86 -
+			URL is launched
+2025-04-18 23:24:57 INFO  TestBase:107 -
+			Browser got closed
+2025-04-18 23:26:59 INFO  TestBase:73 -
+			browser got initialized
+2025-04-18 23:27:01 INFO  TestBase:86 -
+			URL is launched
+2025-04-18 23:27:06 INFO  TestBase:73 -
+			browser got initialized
+2025-04-18 23:27:08 INFO  TestBase:86 -
+			URL is launched
+2025-04-18 23:27:52 INFO  TestBase:73 -
+			browser got initialized
+2025-04-18 23:27:55 INFO  TestBase:86 -
+			URL is launched
+2025-04-18 23:28:39 INFO  TestBase:107 -
+			Browser got closed
