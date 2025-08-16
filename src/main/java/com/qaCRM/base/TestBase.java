@@ -60,17 +60,34 @@ public class TestBase {
 			String browserName = prop.getProperty("browser");
 
 			if (browserName.equalsIgnoreCase("chrome")) {
-				WebDriverManager.chromedriver().setup();
-				driver = new ChromeDriver();
-			} else if (browserName.equalsIgnoreCase("FF")) {
-				WebDriverManager.firefoxdriver().setup();
-				driver = new FirefoxDriver();
-			} else if (browserName.equalsIgnoreCase("edge")) {
-				WebDriverManager.edgedriver().setup();
-				driver = new EdgeDriver();
-			} else {
-				throw new RuntimeException("Browser not supported: " + browserName);
-			}
+				String remote = System.getProperty("remoteUrl", System.getenv("REMOTE_URL"));
+				String browser = System.getProperty("browser", System.getenv().getOrDefault("BROWSER","chrome"));
+
+				if (remote != null && !remote.isBlank()) {
+    // run on Selenium Docker
+   				 if ("firefox".equalsIgnoreCase(browser)) {
+       			 driver = new RemoteWebDriver(new URL(remote), new FirefoxOptions());
+   				 } else {
+       			 ChromeOptions opts = new ChromeOptions();
+        		opts.addArguments("--headless=new","--no-sandbox","--disable-dev-shm-usage","--window-size=1280,800");
+       			 driver = new RemoteWebDriver(new URL(remote), opts);
+   				 }
+					} else {
+    // local fallback (Selenium Manager will fetch driver automatically if Chrome is installed)
+   				 ChromeOptions opts = new ChromeOptions();
+    			opts.addArguments("--headless=new","--no-sandbox","--disable-dev-shm-usage","--window-size=1280,800");
+    			driver = new ChromeDriver(opts);
+					}
+
+			// } else if (browserName.equalsIgnoreCase("FF")) {
+			// 	WebDriverManager.firefoxdriver().setup();
+			// 	driver = new FirefoxDriver();
+			// } else if (browserName.equalsIgnoreCase("edge")) {
+			// 	WebDriverManager.edgedriver().setup();
+			// 	driver = new EdgeDriver();
+			// } else {
+			// 	throw new RuntimeException("Browser not supported: " + browserName);
+			// }
 			logger.info("browser got initialized");
 		
 //		e_driver = new EventFiringWebDriver(driver);
